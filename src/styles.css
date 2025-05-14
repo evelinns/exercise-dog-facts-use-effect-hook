@@ -1,1 +1,46 @@
-/* Start Adding your CSS here */
+* {
+  font-family: sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-color: #f7f7ff;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 20px;
+}
+
+button {
+  padding: 10px 30px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  color: #450c42;
+  background-color: #d2cf36;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background-color: #450c42;
+  color: #d2cf36;
+}
+
+.dogfact {
+  background-color: #e5e39b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 200px;
+  width: 400px;
+  margin: 20px;
+  padding: 10px;
+}
